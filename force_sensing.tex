@@ -1,0 +1,254 @@
+%% ****** Start of file apstemplate.tex ****** %
+%%
+%%
+%%   This file is part of the APS files in the REVTeX 4 distribution.
+%%   Version 4.1r of REVTeX, August 2010
+%%
+%%
+%%   Copyright (c) 2001, 2009, 2010 The American Physical Society.
+%%
+%%   See the REVTeX 4 README file for restrictions and more information.
+%%
+%
+% This is a template for producing manuscripts for use with REVTEX 4.0
+% Copy this file to another name and then work on that file.
+% That way, you always have this original template file to use.
+%
+% Group addresses by affiliation; use superscriptaddress for long
+% author lists, or if there are many overlapping affiliations.
+% For Phys. Rev. appearance, change preprint to twocolumn.
+% Choose pra, prb, prc, prd, pre, prl, prstab, prstper, or rmp for journal
+%  Add 'draft' option to mark overfull boxes with black boxes
+%  Add 'showpacs' option to make PACS codes appear
+%  Add 'showkeys' option to make keywords appear
+\documentclass[aps,prl,preprint,groupedaddress]{revtex4-1}
+%\documentclass[aps,prl,preprint,superscriptaddress]{revtex4-1}
+%\documentclass[aps,prl,reprint,groupedaddress]{revtex4-1}
+
+% You should use BibTeX and apsrev.bst for references
+% Choosing a journal automatically selects the correct APS
+% BibTeX style file (bst file), so only uncomment the line
+% below if necessary.
+%\bibliographystyle{apsrev4-1}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{caption}
+\usepackage{braket}
+\usepackage{mathtools}
+\graphicspath{{figures/}}
+
+
+\begin{document}
+
+% Use the \preprint command to place your local institutional report
+% number in the upper righthand corner of the title page in preprint mode.
+% Multiple \preprint commands are allowed.
+% Use the 'preprintnumbers' class option to override journal defaults
+% to display numbers if necessary
+%\preprint{}
+
+%Title of paper
+\title{Force Sensing}
+
+% repeat the \author .. \affiliation  etc. as needed
+% \email, \thanks, \homepage, \altaffiliation all apply to the current
+% author. Explanatory text should go in the []'s, actual e-mail
+% address or url should go in the {}'s for \email and \homepage.
+% Please use the appropriate macro foreach each type of information
+
+% \affiliation command applies to all authors since the last
+% \affiliation command. The \affiliation command should follow the
+% other information
+% \affiliation can be followed by \email, \homepage, \thanks as well.
+\author{Kevin Gilmore}
+%\email[]{Your e-mail address}
+%\homepage[]{Your web page}
+%\thanks{}
+%\altaffiliation{}
+\affiliation{}
+
+%Collaboration name if desired (requires use of superscriptaddress
+%option in \documentclass). \noaffiliation is required (may also be
+%used with the \author command).
+%\collaboration can be followed by \email, \homepage, \thanks as well.
+%\collaboration{}
+%\noaffiliation
+
+\date{\today}
+
+\begin{abstract}
+% insert abstract here
+\end{abstract}
+
+% insert suggested PACS numbers in braces on next line
+\pacs{}
+% insert suggested keywords - APS authors don't need to do this
+%\keywords{}
+
+%\maketitle must follow title, authors, abstract, \pacs, and \keywords
+\maketitle
+
+% If in two-column mode, this environment will change to single-column
+% format so that long equations can be displayed. Use
+% sparingly.
+%\begin{widetext}
+% put long equation here
+%\end{widetext}
+
+% figures should be put into the text as floats.
+% Use the graphics or graphicx packages (distributed with LaTeX2e)
+% and the \includegraphics macro defined in those packages.
+% See the LaTeX Graphics Companion by Michel Goosens, Sebastian Rahtz,
+% and Frank Mittelbach for instance.
+%
+% Here is an example of the general form of a figure:
+% Fill in the caption in the braces of the \caption{} command. Put the label
+% that you will use with \ref{} command in the braces of the \label{} command.
+% Use the figure* environment if the figure should span across the
+% entire page. There is no need to do explicit centering.
+
+% \begin{figure}
+% \includegraphics{}%
+% \caption{\label{}}
+% \end{figure}
+
+% Surround figure environment with turnpage environment for landscape
+% figure
+% \begin{turnpage}
+% \begin{figure}
+% \includegraphics{}%
+% \caption{\label{}}
+% \end{figure}
+% \end{turnpage}
+
+% tables should appear as floats within the text
+%
+% Here is an example of the general form of a table:
+% Fill in the caption in the braces of the \caption{} command. Put the label
+% that you will use with \ref{} command in the braces of the \label{} command.
+% Insert the column specifiers (l, r, c, d, etc.) in the empty braces of the
+% \begin{tabular}{} command.
+% The ruledtabular enviroment adds doubled rules to table and sets a
+% reasonable default table settings.
+% Use the table* environment to get a full-width table in two-column
+% Add \usepackage{longtable} and the longtable (or longtable*}
+% environment for nicely formatted long tables. Or use the the [H]
+% placement option to break a long table (with less control than 
+% in longtable).
+% \begin{table}%[H] add [H] placement to break table across pages
+% \caption{\label{}}
+% \begin{ruledtabular}
+% \begin{tabular}{}
+% Lines of table here ending with \\
+% \end{tabular}
+% \end{ruledtabular}
+% \end{table}
+
+% Surround table environment with turnpage environment for landscape
+% table
+% \begin{turnpage}
+% \begin{table}
+% \caption{\label{}}
+% \begin{ruledtabular}
+% \begin{tabular}{}
+% \end{tabular}
+% \end{ruledtabular}
+% \end{table}
+% \end{turnpage}
+
+
+% body of paper here - Use proper section commands
+% References should be done using the \cite, \ref, and \label commands
+\section{Introduction}
+% Put \label in argument of \section for cross-referencing
+%\section{\label{}}
+\section{Experimental Setup}
+
+Our experimental system consists of between 20 and 300 9Be+ ions confined to a single-
+plane Coulomb crystal in a Penning trap, described in Fig. 1 and (ref). The trap is characterized by an axial magnetic field $B = 4.45$ T and an axial trap frequency $\omega_z = 2\pi x 1.57$ MHz. A stack of cylindrical electrodes generates a harmonic confining potential along their axis. Radial confinement is provided by the Lorentz force from ~
+$\vec{E} \times \vec{B}$-induced rotation in the axial magnetic field. Time varying potentials applied to eight azimuthally segmented electrodes generate a rotating wall potential that controls the crystal rotation frequency $\omega_r$, typically between $2\pi \times 172$ kHz and $2\pi \times 190$ kHz. The spin-1/2 system is the $\prescript{2}{}{S}_{1/2}$ ground state of the valence electron spin $\ket{\uparrow} (\ket{\downarrow}) \equiv \ket{m_{s}=+1/2} (\ket{m_{s}=-1/2}) $. In the magnetic field of the Penning trap, the ground state is split by 124 GHz. A resonant microwave source provides an effective transverse field, which
+we use to perform global rotations of the spin ensemble with a Rabi frequency of 8.3 kHz. The T2 spin echo coherence time is 15 ms. Optical transitions to the $\prescript{2}{}{P}_{3/2}$ states are used for state preparation, Doppler cooling, and projective measurement. 
+
+\begin{figure}
+\centering
+  \subfloat[]{%
+    \includegraphics[width=.45\textwidth]{penning_trap}}\hfill
+  \subfloat[]{%
+    \includegraphics[width=.3\textwidth]{dumb_dephasing}}
+  \caption{}\label{fig:1}
+\end{figure}
+
+By measuring the decrease in the composite Bloch vector length produced by the application of a homogenous spin-dependent force, detailed information about the motional state of the ions is revealed. This spin dephasing  is directly measured. The spin-dependent optical dipole force (ODF) is generated from the interference of a pair of detuned lasers, shown in Fig. 1a. The ODF couples the spin and motional degrees of freedom through the interaction 
+
+\begin{equation}
+H_{ODF} = U\sum_{i}\sin(\delta k \cdot z_i - \mu t + \phi)\sigma^{z}_i
+\end{equation}
+
+where $z_i$ is the position operator for ion $i$ and $\mu/2\pi$ is the ODF laser beatnote frequency. This can be approximated as
+
+\[H_{ODF} = U\sum_{i}\sin(\delta k \cdot z_i)\cos(\mu t + \phi)\sigma^{z}_i \].
+
+To find the precession due to an axial oscillation, consider a classical driven motion of constant amplitude and phase, $z_i \rightarrow z_i +z_0\cos(\omega t+\delta)$.
+
+Then,
+
+\[H_{ODF} = DWF \cdot U \cdot \delta k \cdot z_0\cos((\omega - \mu)t + \delta + \phi) \sum_{i} \frac{\sigma^{z}_{i}}{2} \],
+
+where $DWF = \exp(-\delta k^2 \left< z^{2}_{i} \right> /2) $.
+
+For $ \omega = \mu $,
+
+\[\theta = \Delta\tau = DWF \cdot U \cdot \delta k \cdot z_0 \tau \cos(\delta - \phi) = \theta_{max}\cos(\delta - \phi)\]
+
+where $\Delta$ is the energy difference between spin-up and spin-down for each ion.
+
+We do our experiments phase incoherently (provide some motivation, ala Ozeri paper? or just explain that this is a limitation? probably both), but can extract the maximum precession angle, $\theta_{max}$. In a Ramsey sequence where the Bloch vector with no precession is rotated down to the dark state, the component along $-\hat{z}$ has length $\cos(\theta)$. Thus the probability for measuring spin-up is $P_{\uparrow} = \frac{1}{2}[1-e^{-\Gamma \tau} \cos(\theta)]$, where $\tau$ is the total ODF interaction time and $\Gamma = \frac{1}{2}(\Gamma_{el} + \Gamma_{ram})$ is the spontaneous decay rate where $\Gamma_{el}$ ($\Gamma_{ram}$) is the elastic (Raman) scattering decoherence rate (Uys PRL ref). To model the phase incoherent experiment, one must average over this length, $ \left< \cos(\theta) \right> $. It can be shown that $ \left< \cos(\theta) \right> = J_0(\theta_{max}) $, where $J_0$ is the zeroth order Bessel function of the first kind. Thus,
+
+\begin{equation}
+\left< P_{\uparrow} \right> = \frac{1}{2} [1-e^{-\Gamma \tau}J_0(\theta_{max}).
+\end{equation}
+
+To create an axial oscillation, we apply an AC voltage (RF potential?) to the endcap of the Penning trap. This can be done either on-resonance or off-resonance with the center of mass mode of the ion crystal at $2\pi \times 1.57$ MHz. To calibrate the displacement of the ions as a result of this applied drive, we apply a static voltage to the endcap and measure the deflection of the ion crystal. From this calibration, we find 1 mV results in 1 nm of displacement.
+  
+\section{Off-resonance amplitude sensing}
+
+\begin{figure}
+\centering
+  \subfloat[]{%
+    \includegraphics[width=.75\textwidth]{cpmg}}\\
+  \subfloat[]{%
+    \includegraphics[width=.5\textwidth]{lineshape_vs_drive}}\hfill
+  \subfloat[]{%
+    \includegraphics[width=.5\textwidth]{lineshape_vs_odf}}\\
+  \subfloat[]{%
+    \includegraphics[width=.4\textwidth]{amp_sense_1}}\hfill
+  \subfloat[]{%
+    \includegraphics[width=.4\textwidth]{amp_sense_2}}\hfill
+  \caption{}\label{fig:1}
+\end{figure}
+
+Scanning the power of the ODF laser varies the strength of the measurement. By comparing the peak of the curve to the background, the signal and the signal-to-noise can be extracted. From this, the sensitivity of the sequence is found. 
+
+\section{On-resonance amplitude sensing}
+
+\subsection{}
+\subsubsection{}
+
+
+% Specify following sections are appendices. Use \appendix* if there
+% only one appendix.
+%\appendix
+%\section{}
+
+% If you have acknowledgments, this puts in the proper section head.
+%\begin{acknowledgments}
+% put your acknowledgments here.
+%\end{acknowledgments}
+
+% Create the reference section using BibTeX:
+\bibliography{basename of .bib file}
+
+\end{document}
+%
+% ****** End of file apstemplate.tex ******
+
