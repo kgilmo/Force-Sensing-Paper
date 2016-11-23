@@ -35,6 +35,7 @@
 \usepackage{caption}
 \usepackage{braket}
 \usepackage{mathtools}
+\usepackage{breqn}
 \graphicspath{{figures/}}
 
 
@@ -209,6 +210,8 @@ We do our experiments phase incoherently (provide some motivation, ala Ozeri pap
 \end{equation}
 
 To create an axial oscillation, we apply an AC voltage (RF potential?) to the endcap of the Penning trap. This can be done either on-resonance or off-resonance with the center of mass mode of the ion crystal at $2\pi \times 1.57$ MHz. To calibrate the displacement of the ions as a result of this applied drive, we apply a static voltage to the endcap and measure the deflection of the ion crystal. From this calibration, we find 1 mV results in 1 nm of displacement.
+
+
   
 \section{Off-resonance amplitude sensing}
 
@@ -221,15 +224,42 @@ To create an axial oscillation, we apply an AC voltage (RF potential?) to the en
   \subfloat[]{%
     \includegraphics[width=.5\textwidth]{lineshape_vs_odf}}\\
   \subfloat[]{%
-    \includegraphics[width=.4\textwidth]{amp_sense_1}}\hfill
-  \subfloat[]{%
-    \includegraphics[width=.4\textwidth]{amp_sense_2}}\hfill
-  \caption{}\label{fig:1}
+    \includegraphics[width=.5\textwidth]{amp_sense_both}}
+  \caption{}\label{fig:2}
 \end{figure}
 
-Scanning the power of the ODF laser varies the strength of the measurement. By comparing the peak of the curve to the background, the signal and the signal-to-noise can be extracted. From this, the sensitivity of the sequence is found. 
+By applying a ~400kHz drive to the endcap electrode, we can study the response of the ion harmonic oscillator to an off resonant force. A spin echo sequence is used to decouple from magnetic field fluctuations over the course of the experimental sequence. To extend the sequence out to long time in order to detect more sensitively, a CPMG style sequence is used. Our experimental sequence makes use of the quantum lock-in technique wherein the phase accumulated in each arm of the sequence is added coherently. Figure () shows a CPMG sequence with 2 $\pi$ pulses and phase jumps appropriate for adding the phases. Adding in 6 additional $\pi$ pulses and ODF pulses allows us to push the sequence time out to 20 ms and maintain a manageable background. 
+
+To model the lineshape of the signal, it is necessary to account for the accumulated phase due to the spin-dependent ODF potential without making the simplification that $ \omega = \mu $. This results in a characteristic response function for each sequence. For the 8 $\pi$ pulse CPMG sequnce
+
+\begin{dmath}
+\theta_{tot} = \theta_{max} \left[ \frac{2 \sin(\frac{1}{2}[(\omega-\mu)T])}{\omega-\mu} \right] 
+\left[ \sin(\frac{\omega}{2}(T+t_{\pi})) \right] \left[ \sin(\frac{1}{2}[\omega (T+t_{\pi}) + (\omega - \mu)T)]) \right] \left[ \cos(\omega(T+t_{\pi})+(\omega - \mu)T) \right] \left[ \cos(2\omega(T+t_{\pi})+(\omega - \mu)T) \right] 
+\end{dmath}.
+
+With the drive frequency chosen to correspond to the peak signal, scanning the power of the ODF laser varies the strength of the measurement. For particular drive amplitudes, by comparing the curve to the background, the signal and the signal-to-noise can be extracted. From this, the sensitivity of the sequence is found.
+
+To calculate the signal-to-noise ratio, a value for $\theta_{max}$ needs to be extracted. Taking the difference between $\left< P_{\uparrow} \right>$ with the classical drive applied and $\left< P_{\uparrow} \right>_{bckgnd}$ with no drive and solving for $J_0(\theta_{max})$ yields
+
+\[J_0(\theta_{max}) = 1 - 2e^{\Gamma \tau}[\left< P_{\uparrow} \right> - \left< P_{\uparrow} \right>_{bckgnd}] \].
+
+The signal-to-noise for a single experiment is given by $S/N =\theta_{max}/\delta \theta_{max}$, where $\delta \theta_{max} \equiv \delta J_0(\theta_{max})/(\frac{dJ_0(\theta_{max})}{d\theta_{max}})$. To get the per-root-Hz sensitivity, the amplitude of the displacement - gotten from the calibration with a known applied drive voltage - and the measurement bandwidth is used. $sense = z_d\sqrt{\tau}/SNR$. 
 
 \section{On-resonance amplitude sensing}
+
+\begin{figure}
+\centering
+  \subfloat[]{%
+    \includegraphics[width=.75\textwidth]{on_res_seq}}\\
+  \subfloat[]{%
+    \includegraphics[width=.5\textwidth]{on_res_drive_t}}\hfill
+  \subfloat[]{%
+    \includegraphics[width=.5\textwidth]{on_res_odf_scan}}\hfill
+  \subfloat[]{%
+    \includegraphics[width=.55\textwidth]{force_sens}}\\    
+  \caption{}\label{fig:3}
+\end{figure}
+
 
 \subsection{}
 \subsubsection{}
