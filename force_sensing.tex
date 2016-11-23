@@ -167,8 +167,7 @@
 
 Our experimental system consists of between 20 and 300 9Be+ ions confined to a single-
 plane Coulomb crystal in a Penning trap, described in Fig. 1 and (ref). The trap is characterized by an axial magnetic field $B = 4.45$ T and an axial trap frequency $\omega_z = 2\pi x 1.57$ MHz. A stack of cylindrical electrodes generates a harmonic confining potential along their axis. Radial confinement is provided by the Lorentz force from ~
-$\vec{E} \times \vec{B}$-induced rotation in the axial magnetic field. Time varying potentials applied to eight azimuthally segmented electrodes generate a rotating wall potential that controls the crystal rotation frequency $\omega_r$, typically between $2\pi \times 172$ kHz and $2\pi \times 190$ kHz. The spin-1/2 system is the $\prescript{2}{}{S}_{1/2}$ ground state of the valence electron spin $\ket{\uparrow} (\ket{\downarrow}) \equiv \ket{m_{s}=+1/2} (\ket{m_{s}=-1/2}) $. In the magnetic field of the Penning trap, the ground state is split by 124 GHz. A resonant microwave source provides an effective transverse field, which
-we use to perform global rotations of the spin ensemble with a Rabi frequency of 8.3 kHz. The T2 spin echo coherence time is 15 ms. Optical transitions to the $\prescript{2}{}{P}_{3/2}$ states are used for state preparation, Doppler cooling, and projective measurement. 
+$\vec{E} \times \vec{B}$-induced rotation in the axial magnetic field. Time varying potentials applied to eight azimuthally segmented electrodes generate a rotating wall potential that controls the crystal rotation frequency $\omega_r$, typically between $2\pi \times 172$ kHz and $2\pi \times 190$ kHz. The spin-1/2 system is the $\prescript{2}{}{S}_{1/2}$ ground state of the valence electron spin $\ket{\uparrow} (\ket{\downarrow}) \equiv \ket{m_{s}=+1/2} (\ket{m_{s}=-1/2}) $. In the magnetic field of the Penning trap, the ground state is split by 124 GHz. A resonant microwave source provides an effective transverse field, which we use to perform global rotations of the spin ensemble with a Rabi frequency of 8.3 kHz. The T2 spin echo coherence time is 15 ms. Optical transitions to the $\prescript{2}{}{P}_{3/2}$ states are used for state preparation, Doppler cooling, and projective measurement. 
 
 \begin{figure}
 \centering
@@ -220,6 +219,8 @@ To create an axial oscillation, we apply an AC voltage (RF potential?) to the en
   \subfloat[]{%
     \includegraphics[width=.75\textwidth]{cpmg}}\\
   \subfloat[]{%
+    \includegraphics[width=.75\textwidth]{8pi_cpmg}}\\
+  \subfloat[]{%
     \includegraphics[width=.5\textwidth]{lineshape_vs_drive}}\hfill
   \subfloat[]{%
     \includegraphics[width=.5\textwidth]{lineshape_vs_odf}}\\
@@ -228,7 +229,7 @@ To create an axial oscillation, we apply an AC voltage (RF potential?) to the en
   \caption{}\label{fig:2}
 \end{figure}
 
-By applying a ~400kHz drive to the endcap electrode, we can study the response of the ion harmonic oscillator to an off resonant force. A spin echo sequence is used to decouple from magnetic field fluctuations over the course of the experimental sequence. To extend the sequence out to long time in order to detect more sensitively, a CPMG style sequence is used. Our experimental sequence makes use of the quantum lock-in technique wherein the phase accumulated in each arm of the sequence is added coherently. Figure () shows a CPMG sequence with 2 $\pi$ pulses and phase jumps appropriate for adding the phases. Adding in 6 additional $\pi$ pulses and ODF pulses allows us to push the sequence time out to 20 ms and maintain a manageable background. 
+By applying a ~400kHz drive to the endcap electrode, we can study the response of the ion harmonic oscillator to an off resonant force. A spin echo sequence is used to decouple from magnetic field fluctuations over the course of the experimental sequence. To extend the sequence out to long time in order to detect more sensitively, a CPMG style sequence is used. Our experimental sequence makes use of the quantum lock-in technique wherein the phase accumulated in each arm of the sequence is added coherently. Figure () shows a CPMG sequence with 2 $\pi$ pulses and phase jumps appropriate for adding the phases. Adding in 6 additional $\pi$ pulses and ODF pulses allows us to push the sequence time out to 20 ms and maintain a manageable background. For this experiment, the drive is left on continuously.
 
 To model the lineshape of the signal, it is necessary to account for the accumulated phase due to the spin-dependent ODF potential without making the simplification that $ \omega = \mu $. This results in a characteristic response function for each sequence. For the 8 $\pi$ pulse CPMG sequnce
 

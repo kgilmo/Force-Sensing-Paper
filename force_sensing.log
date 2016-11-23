@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.1.26)  23 NOV 2016 14:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.1.26)  23 NOV 2016 14:48
 entering extended mode
 **force_sensing.tex
 ("C:\Users\kag3\Documents\GitHub\force sensing paper\force_sensing.tex"
@@ -549,14 +549,14 @@ Package caption Info: End \AtBeginDocument code.
 File: figures/penning_trap.png Graphic file (type png)
 
 <use figures/penning_trap.png>
-Package pdftex.def Info: figures/penning_trap.png used on input line 176.
+Package pdftex.def Info: figures/penning_trap.png used on input line 175.
 (pdftex.def)             Requested size: 210.59857pt x 286.153pt.
 
 <figures/dumb_dephasing.png, id=10, 236.38312pt x 227.34938pt>
 File: figures/dumb_dephasing.png Graphic file (type png)
 
 <use figures/dumb_dephasing.png>
-Package pdftex.def Info: figures/dumb_dephasing.png used on input line 178.
+Package pdftex.def Info: figures/dumb_dephasing.png used on input line 177.
 (pdftex.def)             Requested size: 140.40143pt x 135.03693pt.
  [2] [3 <C:/Users/kag3/Documents/GitHub/force sensing paper/figures/penning_tra
 p.png> <C:/Users/kag3/Documents/GitHub/force sensing paper/figures/dumb_dephasi
@@ -564,61 +564,69 @@ ng.png>]
 <figures/cpmg.png, id=25, 1317.42188pt x 225.09094pt>
 File: figures/cpmg.png Graphic file (type png)
  <use figures/cpmg.png>
-Package pdftex.def Info: figures/cpmg.png used on input line 221.
+Package pdftex.def Info: figures/cpmg.png used on input line 220.
 (pdftex.def)             Requested size: 351.0pt x 59.96822pt.
 
-<figures/lineshape_vs_drive.png, id=26, 392.21532pt x 216.05719pt>
+<figures/8pi_cpmg.png, id=26, 1314.41063pt x 34.62938pt>
+File: figures/8pi_cpmg.png Graphic file (type png)
+
+<use figures/8pi_cpmg.png>
+Package pdftex.def Info: figures/8pi_cpmg.png used on input line 222.
+(pdftex.def)             Requested size: 351.0pt x 9.24701pt.
+
+<figures/lineshape_vs_drive.png, id=27, 392.21532pt x 216.05719pt>
 File: figures/lineshape_vs_drive.png Graphic file (type png)
 
 <use figures/lineshape_vs_drive.png>
-Package pdftex.def Info: figures/lineshape_vs_drive.png used on input line 223.
+Package pdftex.def Info: figures/lineshape_vs_drive.png used on input line 224.
 
 (pdftex.def)             Requested size: 234.0pt x 128.90341pt.
 
-<figures/lineshape_vs_odf.png, id=27, 380.92313pt x 216.81pt>
+<figures/lineshape_vs_odf.png, id=28, 380.92313pt x 216.81pt>
 File: figures/lineshape_vs_odf.png Graphic file (type png)
 
 <use figures/lineshape_vs_odf.png>
-Package pdftex.def Info: figures/lineshape_vs_odf.png used on input line 225.
+Package pdftex.def Info: figures/lineshape_vs_odf.png used on input line 226.
 (pdftex.def)             Requested size: 234.0pt x 133.18352pt.
 
-<figures/amp_sense_both.png, id=28, 297.36093pt x 219.06844pt>
+<figures/amp_sense_both.png, id=29, 297.36093pt x 219.06844pt>
 File: figures/amp_sense_both.png Graphic file (type png)
 
 <use figures/amp_sense_both.png>
-Package pdftex.def Info: figures/amp_sense_both.png used on input line 227.
+Package pdftex.def Info: figures/amp_sense_both.png used on input line 228.
 (pdftex.def)             Requested size: 234.0pt x 172.39027pt.
  [4] [5 <C:/Users/kag3/Documents/GitHub/force sensing paper/figures/cpmg.png> <
-C:/Users/kag3/Documents/GitHub/force sensing paper/figures/lineshape_vs_drive.p
-ng> <C:/Users/kag3/Documents/GitHub/force sensing paper/figures/lineshape_vs_od
-f.png> <C:/Users/kag3/Documents/GitHub/force sensing paper/figures/amp_sense_bo
-th.png>]
-<figures/on_res_seq.png, id=40, 1093.08376pt x 168.63pt>
+C:/Users/kag3/Documents/GitHub/force sensing paper/figures/8pi_cpmg.png> <C:/Us
+ers/kag3/Documents/GitHub/force sensing paper/figures/lineshape_vs_drive.png> <
+C:/Users/kag3/Documents/GitHub/force sensing paper/figures/lineshape_vs_odf.png
+> <C:/Users/kag3/Documents/GitHub/force sensing paper/figures/amp_sense_both.pn
+g>]
+<figures/on_res_seq.png, id=42, 1093.08376pt x 168.63pt>
 File: figures/on_res_seq.png Graphic file (type png)
 
 <use figures/on_res_seq.png>
-Package pdftex.def Info: figures/on_res_seq.png used on input line 253.
+Package pdftex.def Info: figures/on_res_seq.png used on input line 254.
 (pdftex.def)             Requested size: 351.0pt x 54.14795pt.
 
-<figures/on_res_drive_t.png, id=41, 407.27156pt x 213.79875pt>
+<figures/on_res_drive_t.png, id=43, 407.27156pt x 213.79875pt>
 File: figures/on_res_drive_t.png Graphic file (type png)
 
 <use figures/on_res_drive_t.png>
-Package pdftex.def Info: figures/on_res_drive_t.png used on input line 255.
+Package pdftex.def Info: figures/on_res_drive_t.png used on input line 256.
 (pdftex.def)             Requested size: 234.0pt x 122.83871pt.
 
-<figures/on_res_odf_scan.png, id=42, 471.26062pt x 230.36063pt>
+<figures/on_res_odf_scan.png, id=44, 471.26062pt x 230.36063pt>
 File: figures/on_res_odf_scan.png Graphic file (type png)
 
 <use figures/on_res_odf_scan.png>
-Package pdftex.def Info: figures/on_res_odf_scan.png used on input line 257.
+Package pdftex.def Info: figures/on_res_odf_scan.png used on input line 258.
 (pdftex.def)             Requested size: 234.0pt x 114.38562pt.
 
-<figures/force_sens.png, id=43, 296.60812pt x 214.55156pt>
+<figures/force_sens.png, id=45, 296.60812pt x 214.55156pt>
 File: figures/force_sens.png Graphic file (type png)
 
 <use figures/force_sens.png>
-Package pdftex.def Info: figures/force_sens.png used on input line 259.
+Package pdftex.def Info: figures/force_sens.png used on input line 260.
 (pdftex.def)             Requested size: 257.40143pt x 186.19673pt.
 
 ("C:\Users\kag3\Documents\GitHub\force sensing paper\force_sensing.bbl"
@@ -632,10 +640,10 @@ can.png> <C:/Users/kag3/Documents/GitHub/force sensing paper/figures/force_sens
 .png>] ("C:\Users\kag3\Documents\GitHub\force sensing paper\force_sensing.aux")
  ) 
 Here is how much of TeX's memory you used:
- 12913 strings out of 493643
- 225091 string characters out of 3135817
- 267220 words of memory out of 3000000
- 16227 multiletter control sequences out of 15000+200000
+ 12918 strings out of 493643
+ 225202 string characters out of 3135817
+ 268220 words of memory out of 3000000
+ 16231 multiletter control sequences out of 15000+200000
  8956 words of font info for 32 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  44i,9n,47p,10389b,414s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -653,9 +661,9 @@ lic/amsfonts/cm/cmr6.pfb><C:/Users/kag3/AppData/Local/Programs/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmr8.pfb><C:/Users/kag3/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/kag3/AppData/Local/Pro
 grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on force_sensing.pdf (7 pages, 566858 bytes).
+Output written on force_sensing.pdf (7 pages, 590441 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
+ 96 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
