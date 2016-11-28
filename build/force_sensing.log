@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.11.25)  26 NOV 2016 20:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.11.25)  27 NOV 2016 18:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -354,153 +354,132 @@ Package caption Info: End \AtBeginDocument code.
 File: figures/penning_trap.png Graphic file (type png)
 
 <use figures/penning_trap.png>
-Package pdftex.def Info: figures/penning_trap.png used on input line 175.
+Package pdftex.def Info: figures/penning_trap.png used on input line 172.
 (pdftex.def)             Requested size: 127.5pt x 173.2323pt.
 
 <figures/dumb_dephasing.png, id=3, 236.38312pt x 227.34938pt>
 File: figures/dumb_dephasing.png Graphic file (type png)
 
 <use figures/dumb_dephasing.png>
-Package pdftex.def Info: figures/dumb_dephasing.png used on input line 177.
+Package pdftex.def Info: figures/dumb_dephasing.png used on input line 174.
 (pdftex.def)             Requested size: 76.49689pt x 73.57545pt.
  [1{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figures/pe
 nning_trap.png> <./figures/dumb_dephasing.png>] <figures/cpmg.png, id=27, 1317.
 42188pt x 225.09094pt>
 File: figures/cpmg.png Graphic file (type png)
  <use figures/cpmg.png>
-Package pdftex.def Info: figures/cpmg.png used on input line 206.
-(pdftex.def)             Requested size: 255.0pt x 43.56798pt.
-
-Overfull \hbox (9.0pt too wide) in paragraph at lines 206--206
- [][] 
- []
+Package pdftex.def Info: figures/cpmg.png used on input line 199.
+(pdftex.def)             Requested size: 408.00156pt x 69.70877pt.
 
 <figures/8pi_cpmg.png, id=28, 1314.41063pt x 34.62938pt>
 File: figures/8pi_cpmg.png Graphic file (type png)
 
 <use figures/8pi_cpmg.png>
-Package pdftex.def Info: figures/8pi_cpmg.png used on input line 208.
-(pdftex.def)             Requested size: 255.0pt x 6.71808pt.
-
-Overfull \hbox (9.0pt too wide) in paragraph at lines 208--208
- [][] 
- []
+Package pdftex.def Info: figures/8pi_cpmg.png used on input line 201.
+(pdftex.def)             Requested size: 408.00156pt x 10.74872pt.
 
 <figures/lineshape_vs_drive.png, id=29, 292.84406pt x 216.05719pt>
 File: figures/lineshape_vs_drive.png Graphic file (type png)
 
 <use figures/lineshape_vs_drive.png>
-Package pdftex.def Info: figures/lineshape_vs_drive.png used on input line 210.
+Package pdftex.def Info: figures/lineshape_vs_drive.png used on input line 203.
 
-(pdftex.def)             Requested size: 122.4028pt x 90.30821pt.
+(pdftex.def)             Requested size: 229.49844pt x 169.32832pt.
 
 <figures/lineshape_vs_odf.png, id=30, 292.84406pt x 216.05719pt>
 File: figures/lineshape_vs_odf.png Graphic file (type png)
 
 <use figures/lineshape_vs_odf.png>
-Package pdftex.def Info: figures/lineshape_vs_odf.png used on input line 212.
-(pdftex.def)             Requested size: 122.4028pt x 90.30821pt.
+Package pdftex.def Info: figures/lineshape_vs_odf.png used on input line 205.
+(pdftex.def)             Requested size: 229.49844pt x 169.32832pt.
 
-<figures/amp_sense_both.png, id=31, 297.36093pt x 219.06844pt>
-File: figures/amp_sense_both.png Graphic file (type png)
-
-<use figures/amp_sense_both.png>
-Package pdftex.def Info: figures/amp_sense_both.png used on input line 214.
-(pdftex.def)             Requested size: 127.5pt x 93.93016pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 237--239
+Underfull \hbox (badness 10000) in paragraph at lines 228--230
 \OT1/cmr/m/n/10 The signal-to-noise for a sin-gle ex-per-i-ment is
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 237--239
+Underfull \hbox (badness 3250) in paragraph at lines 228--230
 \OT1/cmr/m/n/10 given by $\OML/cmm/m/it/10 S=N \OT1/cmr/m/n/10 = \OML/cmm/m/it/
 10 ^^R[]=^^N^^R[]$\OT1/cmr/m/n/10 , where $\OML/cmm/m/it/10 ^^N^^R[] \OMS/cmsy/
 m/n/10 ^^Q
  []
 
+<figures/amp_sense_both.png, id=31, 297.36093pt x 219.06844pt>
+File: figures/amp_sense_both.png Graphic file (type png)
 
-Package natbib Warning: Citation `Biercuk2010a' on page 2 undefined on input li
-ne 244.
+<use figures/amp_sense_both.png>
+Package pdftex.def Info: figures/amp_sense_both.png used on input line 234.
+(pdftex.def)             Requested size: 127.5pt x 93.93016pt.
 
-[2]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 245.
-
-
-Package natbib Warning: Citation `Ivanov2016c' on page 3 undefined on input lin
-e 246.
-
-<figures/onres_seq.png, id=37, 1095.3422pt x 170.13562pt>
+<figures/onres_seq.png, id=32, 1095.3422pt x 170.13562pt>
 File: figures/onres_seq.png Graphic file (type png)
 
 <use figures/onres_seq.png>
-Package pdftex.def Info: figures/onres_seq.png used on input line 250.
+Package pdftex.def Info: figures/onres_seq.png used on input line 244.
 (pdftex.def)             Requested size: 255.0pt x 39.60803pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 250--250
+Overfull \hbox (9.0pt too wide) in paragraph at lines 244--244
  [][] 
  []
 
-<figures/on_res_drive_t.png, id=38, 289.08pt x 213.04594pt>
+<figures/on_res_drive_t.png, id=33, 289.08pt x 213.04594pt>
 File: figures/on_res_drive_t.png Graphic file (type png)
 
 <use figures/on_res_drive_t.png>
-Package pdftex.def Info: figures/on_res_drive_t.png used on input line 252.
+Package pdftex.def Info: figures/on_res_drive_t.png used on input line 246.
 (pdftex.def)             Requested size: 122.4028pt x 90.20686pt.
 
-<figures/on_res_odf_scan.png, id=39, 399.4925pt x 306.14375pt>
+<figures/on_res_odf_scan.png, id=34, 399.4925pt x 306.14375pt>
 File: figures/on_res_odf_scan.png Graphic file (type png)
 
 <use figures/on_res_odf_scan.png>
-Package pdftex.def Info: figures/on_res_odf_scan.png used on input line 254.
+Package pdftex.def Info: figures/on_res_odf_scan.png used on input line 248.
 (pdftex.def)             Requested size: 122.4028pt x 93.80113pt.
-
+ [2]
 <figures/force_sens.png, id=40, 296.60812pt x 214.55156pt>
 File: figures/force_sens.png Graphic file (type png)
 
 <use figures/force_sens.png>
-Package pdftex.def Info: figures/force_sens.png used on input line 256.
+Package pdftex.def Info: figures/force_sens.png used on input line 253.
 (pdftex.def)             Requested size: 127.5pt x 92.22589pt.
  (build/force_sensing.bbl [3 <./figures/cpmg.png> <./figures/8pi_cpmg.png> <./f
 igures/lineshape_vs_drive.png> <./figures/lineshape_vs_odf.png> <./figures/amp_
-sense_both.png> <./figures/onres_seq.png> <./figures/on_res_drive_t.png> <./fig
-ures/on_res_odf_scan.png> <./figures/force_sens.png>])
+sense_both.png>]
 
-Package natbib Warning: There were undefined citations.
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 53.
 
-[4] (build/force_sensing.aux) ) 
+) [4 <./figures/onres_seq.png> <./figures/on_res_drive_t.png> <./figures/on_res
+_odf_scan.png> <./figures/force_sens.png>] (build/force_sensing.aux) ) 
 Here is how much of TeX's memory you used:
  5462 strings out of 494945
- 78699 string characters out of 6181142
- 165353 words of memory out of 5000000
- 8685 multiletter control sequences out of 15000+600000
- 8234 words of font info for 30 fonts, out of 8000000 for 9000
+ 78687 string characters out of 6181142
+ 164885 words of memory out of 5000000
+ 8686 multiletter control sequences out of 15000+600000
+ 7926 words of font info for 29 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 40i,10n,49p,1267b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2016/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmbx10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.p
-fb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/201
-6/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2016/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2016/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi9.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.p
-fb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2016/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2016/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy7.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy9.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-
-Output written on build/force_sensing.pdf (4 pages, 625472 bytes).
+ 40i,10n,49p,1205b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2016/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2016/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2016/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi5.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi6.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.p
+fb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2016/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2016/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr9.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><
+c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2016/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on build/force_sensing.pdf (4 pages, 611546 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 112 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
