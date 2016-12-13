@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.1.26)  6 DEC 2016 14:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.1.26)  13 DEC 2016 10:07
 entering extended mode
 **force_sensing_vers2.tex
 ("C:\Users\kag3\Documents\GitHub\force sensing paper\force_sensing_vers2.tex"
@@ -331,15 +331,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [1{C:/Users/kag3/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 188.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 190.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 188.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 190.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-<figures/dephasing.png, id=18, 260.47313pt x 242.40562pt>
+<figures/dephasing.png, id=19, 260.47313pt x 242.40562pt>
 File: figures/dephasing.png Graphic file (type png)
 
 <use figures/dephasing.png>
@@ -432,10 +432,10 @@ mr/m/n/9 , 25 (2016),
 ("C:\Users\kag3\Documents\GitHub\force sensing paper\force_sensing_vers2.aux") 
 ) 
 Here is how much of TeX's memory you used:
- 5131 strings out of 493643
- 74421 string characters out of 3135817
- 160170 words of memory out of 3000000
- 8477 multiletter control sequences out of 15000+200000
+ 5132 strings out of 493643
+ 74435 string characters out of 3135817
+ 158149 words of memory out of 3000000
+ 8478 multiletter control sequences out of 15000+200000
  7926 words of font info for 29 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  36i,10n,47p,1574b,394s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -462,7 +462,7 @@ public/amsfonts/cm/cmsy6.pfb><C:/Users/kag3/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/kag3/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/kag3/AppData/Local
 /Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on force_sensing_vers2.pdf (5 pages, 568815 bytes).
+Output written on force_sensing_vers2.pdf (5 pages, 568131 bytes).
 PDF statistics:
  139 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
