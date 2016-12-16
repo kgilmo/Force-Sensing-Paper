@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.1.26)  13 DEC 2016 10:07
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.1.26)  13 DEC 2016 10:40
 entering extended mode
 **force_sensing_vers2.tex
 ("C:\Users\kag3\Documents\GitHub\force sensing paper\force_sensing_vers2.tex"
@@ -316,14 +316,14 @@ Package caption Info: End \AtBeginDocument code.
 File: figures/penning_trap.png Graphic file (type png)
 
 <use figures/penning_trap.png>
-Package pdftex.def Info: figures/penning_trap.png used on input line 179.
+Package pdftex.def Info: figures/penning_trap.png used on input line 188.
 (pdftex.def)             Requested size: 122.4028pt x 166.30861pt.
 
 <figures/level_diagram.pdf, id=3, 193.22188pt x 219.31938pt>
 File: figures/level_diagram.pdf Graphic file (type pdf)
 
 <use figures/level_diagram.pdf>
-Package pdftex.def Info: figures/level_diagram.pdf used on input line 181.
+Package pdftex.def Info: figures/level_diagram.pdf used on input line 190.
 (pdftex.def)             Requested size: 122.4028pt x 138.93494pt.
 
 
@@ -331,10 +331,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [1{C:/Users/kag3/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 190.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 197.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 190.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 197.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
@@ -343,7 +343,7 @@ Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 File: figures/dephasing.png Graphic file (type png)
 
 <use figures/dephasing.png>
-Package pdftex.def Info: figures/dephasing.png used on input line 201.
+Package pdftex.def Info: figures/dephasing.png used on input line 210.
 (pdftex.def)             Requested size: 76.49689pt x 71.19093pt.
  [2 <C:/Users/kag3/Documents/GitHub/force sensing paper/figures/penning_trap.pn
 g> <C:/Users/kag3/Documents/GitHub/force sensing paper/figures/level_diagram.pd
@@ -351,21 +351,21 @@ f> <C:/Users/kag3/Documents/GitHub/force sensing paper/figures/dephasing.png>]
 <figures/cpmg.png, id=56, 1317.42188pt x 225.09094pt>
 File: figures/cpmg.png Graphic file (type png)
  <use figures/cpmg.png>
-Package pdftex.def Info: figures/cpmg.png used on input line 216.
+Package pdftex.def Info: figures/cpmg.png used on input line 225.
 (pdftex.def)             Requested size: 408.00156pt x 69.70877pt.
 
 <figures/8pi_cpmg.png, id=57, 1314.41063pt x 34.62938pt>
 File: figures/8pi_cpmg.png Graphic file (type png)
 
 <use figures/8pi_cpmg.png>
-Package pdftex.def Info: figures/8pi_cpmg.png used on input line 218.
+Package pdftex.def Info: figures/8pi_cpmg.png used on input line 227.
 (pdftex.def)             Requested size: 408.00156pt x 10.74872pt.
 
 <figures/lineshape_vs_drive.png, id=58, 294.34969pt x 216.81pt>
 File: figures/lineshape_vs_drive.png Graphic file (type png)
 
 <use figures/lineshape_vs_drive.png>
-Package pdftex.def Info: figures/lineshape_vs_drive.png used on input line 220.
+Package pdftex.def Info: figures/lineshape_vs_drive.png used on input line 229.
 
 (pdftex.def)             Requested size: 229.49844pt x 169.04494pt.
 
@@ -373,7 +373,7 @@ Package pdftex.def Info: figures/lineshape_vs_drive.png used on input line 220.
 File: figures/lineshape_vs_odf.png Graphic file (type png)
 
 <use figures/lineshape_vs_odf.png>
-Package pdftex.def Info: figures/lineshape_vs_odf.png used on input line 222.
+Package pdftex.def Info: figures/lineshape_vs_odf.png used on input line 231.
 (pdftex.def)             Requested size: 229.49844pt x 169.04494pt.
 
 
@@ -383,21 +383,21 @@ Class revtex4-1 Warning: Float cannot be placed.
 File: figures/amp_sense_both.png Graphic file (type png)
 
 <use figures/amp_sense_both.png>
-Package pdftex.def Info: figures/amp_sense_both.png used on input line 248.
+Package pdftex.def Info: figures/amp_sense_both.png used on input line 257.
 (pdftex.def)             Requested size: 127.5pt x 93.93016pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--251
+Underfull \hbox (badness 10000) in paragraph at lines 254--260
 \OT1/cmr/m/n/10 The signal-to-noise for a sin-gle ex-per-i-ment is
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 245--251
+Underfull \hbox (badness 3250) in paragraph at lines 254--260
 \OT1/cmr/m/n/10 given by $\OML/cmm/m/it/10 S=N \OT1/cmr/m/n/10 = \OML/cmm/m/it/
 10 []=[]$\OT1/cmr/m/n/10 , where $\OML/cmm/m/it/10 [] \OMS/cmsy/m/n/10 $
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 245--251
+Underfull \hbox (badness 2932) in paragraph at lines 254--260
 $\OML/cmm/m/it/10 F\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )\OML/
 cmm/m/it/10 = []$ \OT1/cmr/m/n/10 and $\OML/cmm/m/it/10 F\OT1/cmr/m/n/10 (\OML/
 cmm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10  []$\OT1/cmr/m/n/10 .
@@ -406,22 +406,21 @@ cmm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10  []$\OT1/cmr/m/n/10 .
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-("C:\Users\kag3\Documents\GitHub\force sensing paper\force_sensing_vers2.bbl"
 [3]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 54.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 262.
 
 [4 <C:/Users/kag3/Documents/GitHub/force sensing paper/figures/cpmg.png> <C:/Us
 ers/kag3/Documents/GitHub/force sensing paper/figures/8pi_cpmg.png> <C:/Users/k
 ag3/Documents/GitHub/force sensing paper/figures/lineshape_vs_drive.png> <C:/Us
 ers/kag3/Documents/GitHub/force sensing paper/figures/lineshape_vs_odf.png>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 54.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 262.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-
+("C:\Users\kag3\Documents\GitHub\force sensing paper\force_sensing_vers2.bbl"
 Underfull \hbox (badness 1158) in paragraph at lines 98--106
  \OT1/cmr/m/n/9 J. P. Davis, Na-ture Com-mu-ni-ca-tions \OT1/cmr/bx/n/9 7\OT1/c
 mr/m/n/9 , 25 (2016),
@@ -433,12 +432,12 @@ mr/m/n/9 , 25 (2016),
 ) 
 Here is how much of TeX's memory you used:
  5132 strings out of 493643
- 74435 string characters out of 3135817
- 158149 words of memory out of 3000000
+ 74434 string characters out of 3135817
+ 160485 words of memory out of 3000000
  8478 multiletter control sequences out of 15000+200000
  7926 words of font info for 29 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 36i,10n,47p,1574b,394s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,10n,47p,1575b,394s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/kag3/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmbx12.pfb><C:/Users/kag3/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmbx9.pfb><C:/Users/kag3/AppData/Local/Programs/MiKTeX 2.9/fonts/
@@ -462,7 +461,7 @@ public/amsfonts/cm/cmsy6.pfb><C:/Users/kag3/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/kag3/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/kag3/AppData/Local
 /Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on force_sensing_vers2.pdf (5 pages, 568131 bytes).
+Output written on force_sensing_vers2.pdf (5 pages, 572940 bytes).
 PDF statistics:
  139 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

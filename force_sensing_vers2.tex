@@ -47,7 +47,7 @@
 %\preprint{}
 
 %Title of paper
-\title{Force and Amplitude Sensing with Ions in a Penning Trap}
+\title{Off Resonant Amplitude Sensing with Ions in a Penning Trap}
 
 % repeat the \author .. \affiliation  etc. as needed
 % \email, \thanks, \homepage, \altaffiliation all apply to the current
@@ -64,9 +64,18 @@
 %\homepage[]{Your web page}
 %\thanks{}
 %\altaffiliation{}
-\affiliation{National Institute of Standards and Technology, JILA, and Department of Physics, University of Colorado, Boulder, Colorado, 80309, USA}
+\affiliation{National Institute of Standards and Technology, Boulder, Colorado 80305, USA}
+\affiliation{JILA and Department of Physics, University of Colorado, Boulder, Colorado, 80309, USA}
 
 \author{J. G. Bohnet}
+\affiliation{National Institute of Standards and Technology, Boulder, Colorado 80305, USA}
+
+\author{B. C. Sawyer}
+\affiliation{Georgia Tech Research Institute, Atlanta, Georgia 30332, USA}
+
+\author{J. W. Britton}
+\affiliation{U.S. Army Research Laboratory, Adelphi, Maryland 20783, USA}
+
 \author{J. J. Bollinger}
 \affiliation{National Institute of Standards and Technology, Boulder, Colorado 80305, USA}
 
@@ -173,7 +182,7 @@ By scaling up the number of ions we see an increase in sensitivity to ion displa
 
 We present a novel technique for amplitude and force sensing. By isolating and controlling a two-level system comprised of the effective spin-1/2 in each ion in our trap and applying a global spin-dependent force, the spin and motional degrees of freedom of the ions are coupled. This coupling allows us to measure the motional state of the ions by directly reading out the spin state. This method was used previously as a probe of the mode temperatures in the ion crystal in our Penning trap \citep{Sawyer2014a}.
 
-Improvements / differences vs prior reports of force detection \citep{Biercuk2010a, Biercuk2011}
+A prior version of this experimental apparatus using Doppler velocimetry reported force sensing of 390 yN $Hz^{-1}$ and displacements of 18 nm \citep{Biercuk2010a, Biercuk2011}. With near term improvements we expect to best this force sensitivity by []. We report an amplitude sensitivity two orders of magnitude improved.
 \begin{figure}[h]
   \subfloat[]{%
     \includegraphics[width=.24\textwidth]{penning_trap}}\hfill
@@ -209,7 +218,7 @@ Due to current experimental limitations, we do our measurements phase incoherent
 To create an axial oscillation, we apply an AC voltage to the endcap of the Penning trap. This can be done either on-resonance or off-resonance with the center of mass mode of the ion crystal at $2\pi \times 1.57$ MHz. Characterization of the detection sensitivity requires calibration of the applied drive in terms of ion displacement. To calibrate the displacement of the ions as a result of this applied drive, we apply a static voltage to the endcap and measure the deflection of the ion crystal. The deflection is measured using an f/10 light collection system and a CCD camera, which provides spatial resolution of $\sim .8 \mu$m per pixel. From this calibration, we find 1 V results in 0.97 $\pm$ 0.009 $\mu$m of displacement.
 
 \section{Off-resonance amplitude sensing}
-By applying a $\sim$400kHz drive to the endcap electrode, we can study the response of the ion harmonic oscillator to an off resonant force. A spin echo sequence is used to decouple from magnetic field fluctuations over the course of the experimental sequence. Our experimental sequence makes use of the quantum lock-in technique wherein the phase accumulated in each arm of the sequence is added coherently \citep{Kotler2011}. To extend the sequence out to long time in order to detect more sensitively, a CPMG style sequence is used. Figure 2 shows a CPMG sequence with 2 $\pi$ pulses and phase jumps appropriate for adding the phases. The general experimental sequence is as follows. A calibrated drive at $\sim$400 kHz is applied to the endcap of the trap and left on throughout the experiment. The ions are prepared in $\ket{\uparrow}$ with cooling and repump lasers. A microwave $\pi/2$ pulse rotates the spins to the $\hat{x}$ axis, to the superposition $\left[\ket{\uparrow} + \ket{\downarrow}\right]/\sqrt{2}$. The ODF beams are pulsed on for a duration T followed by a microwave $\pi$ pulse about $\hat{x}$ and another ODF pulse of duration T. After a second $\pi/2$ pulse about $\hat{y}$, the final state readout measures the population of the spins in $\ket{\uparrow}$ via global fluorescence due to photons scattered from the cooling beam. Adding in 6 additional ODF-$\pi$-ODF pulses allows us to push the sequence time out to 20 ms and maintain a background fully characterized by decoherence due to spontaneous emission.
+By applying a $\sim$400 kHz drive to the endcap electrode, we can study the response of the ion harmonic oscillator to an off resonant force. A spin echo sequence is used to decouple from magnetic field fluctuations over the course of the experimental sequence. Our experimental sequence makes use of the quantum lock-in technique wherein the phase accumulated in each arm of the sequence is added coherently \citep{Kotler2011}. To extend the sequence out to long time in order to detect more sensitively, a CPMG style sequence is used. Figure 2 shows a CPMG sequence with 2 $\pi$ pulses and phase jumps appropriate for adding the phases. The general experimental sequence is as follows. A calibrated drive at $\sim$400 kHz is applied to the endcap of the trap and left on throughout the experiment. The ions are prepared in $\ket{\uparrow}$ with cooling and repump lasers. A microwave $\pi/2$ pulse rotates the spins to the $\hat{x}$ axis, to the superposition $\left[\ket{\uparrow} + \ket{\downarrow}\right]/\sqrt{2}$. The ODF beams are pulsed on for a duration T followed by a microwave $\pi$ pulse about $\hat{x}$ and another ODF pulse of duration T. After a second $\pi/2$ pulse about $\hat{y}$, the final state readout measures the population of the spins in $\ket{\uparrow}$ via global fluorescence due to photons scattered from the cooling beam. Adding in 6 additional ODF-$\pi$-ODF pulses allows us to push the sequence time out to 20 ms and maintain a background fully characterized by decoherence due to spontaneous emission.
 
 \begin{figure*}[h]
   \subfloat[]{%
@@ -225,7 +234,7 @@ By applying a $\sim$400kHz drive to the endcap electrode, we can study the respo
 
 This sequence, with fixed ODF evolution times T, is sensitive to particular modulation frequencies given by $ \omega/2\pi = (2n+1)/(2(T+t_{\pi}))$. In principle, given a signal with a certain frequency T would be adjusted accordingly.
 
-To model the lineshape of the signal, it is necessary to account for the accumulated phase due to the spin-dependent ODF potential without making the simplification that $ \omega = \mu $. This results in a characteristic response function for each sequence. For the 8 $\pi$ pulse CPMG sequence the response function is given by:
+To model the lineshape of the signal, it is necessary to account for the accumulated phase due to the spin-dependent ODF potential without making the simplification that $ \omega = \mu $. This results in a characteristic response function for each sequence. For the 8$\pi$ pulse CPMG sequence the response function is given by:
 %\begin{widetext}
 %\begin{equation}
 %\theta_{tot} = \theta_{max} \left[ \frac{2 \sin(\frac{1}{2}[(\omega-\mu)T])}{\omega-\mu} \right] 
@@ -249,7 +258,6 @@ The signal-to-noise for a single experiment is given by $S/N =\theta_{max}^{2}/\
 \caption{}\label{Fig 4}
 \end{figure}
 
-Additionally, we observe a scaling of the amplitude sensitivity with the number of ions.
 \section{Conclusion}
 
 \subsection{}
