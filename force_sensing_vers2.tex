@@ -47,7 +47,7 @@
 %\preprint{}
 
 %Title of paper
-\title{Off Resonant Amplitude Sensing with Ions in a Penning Trap}
+\title{Amplitude sensing with a trapped-ion mechanical oscillator}
 
 % repeat the \author .. \affiliation  etc. as needed
 % \email, \thanks, \homepage, \altaffiliation all apply to the current
@@ -174,7 +174,36 @@
 \section{Introduction}
 % Put \label in argument of \section for cross-referencing
 %\section{\label{}}
-Well controlled and understood quantum systems offer advantages over their classical counterparts and are finding uses in a variety of up-and-coming disciplines. Quantum information and quantum cryptography are chief among them, but the use of such a quantum mechanical system as a sensor may prove to be tremendously useful. Quantum metrology, where the sensing protocol is enhanced by entanglement, is the most direct way to improve a measurement's sensitivity beyond the classical limit. However, such methods remain relatively far from useful application. The use of a quantum system sensitive to a physical parameter, such as an electric or magnetic field, is of more immediate usefulness for sensitive measurements \citep{Degen2016}. Cavity-based optomechanical resonators have proven to be tremendously sensitive to a wide variety of physical parameters and are the most prominent example of a meso/macro-scopic system used as a quantum sensor \citep{Clark2016,Kampel2016,Kim2016a,Schreppler2014a}. Single ion sensors make use of their long coherence times to make measurements and are the prime example of a single quantum object used as a sensor \citep{Shaniv2016,Ivanov2016a,Knunz2010}. Our 2-D crystal of ions in a Penning trap operates in a regime between these two paradigms.
+Measuring the amplitude of mechanical oscillators has engaged physicists for more than 50 years \citep{Weber1966}. This is motivated by metrology - many force sensors, for example, rely on measuring the amplitude of a mechanical oscillator - and by a desire to understand the fundamental limits of amplitude detection \citep{Caves1980}. Pursuing the ultimate limits of amplitude sensing has led to a wide range of exciting advances both in fundamental physics, from the detection of gravity waves and the fundamental quantum uncertainty of mesoscopic objects, to applied work with force microscopy and transduction of quantum signals. 
+
+During the past decade, optical-mechanical systems have demonstrated increasingly sensitive techniques for reading out the amplitude of a mechanical oscillator, with a recent demonstration obtaining a precision of a factor of ∼100 below the size of the ground state wave function \citep{Wilson2014a}. While optomechanical systems have assumed a wide range of physical systems, including torroidal resonators, nanobeams, membranes and others, the basic principle involves coupling the motion of the oscillator to a light field which is detected.
+
+Crystals of laser-cooled, trapped ions behave as atomic-scale mechanical oscillators \citep{Jost2009,Biercuk2010a,Sawyer2012} with tunable oscillator modes and very high quality factors (estimate here) \citep{Biercuk2010a,Sawyer2012,Shaniv2016,Ivanov2016a,Knunz2010}. Trapped-ion crystals therefore provide an ideal laboratory for investigating the fundamental limits of amplitude sensing, but to date there have only been a handful of investigations [5-8]. These investigations demonstrate amplitude detection comparable to or larger than the ground state wave function size.
+
+In this Letter we experimentally and theoretically analyze a technique
+with which the center-of-mass (COM) motion of a 2-dimensional trapped-ion
+crystal of $\sim100$ ions can be sensitively detected. Specifically,
+we employ a spin-dependent force that couples the COM motion with
+the internal spin degrees of freedom of the ions. When the frequency
+$\mu$ of the spin-dependent force matches the frequency $\omega$
+of an imposed COM oscillation, $Z_{c}\cos\left(\omega t\right)$,
+spin precession proportional to $Z_{c}$ occurs, which we read out
+with a precision imposed by spin projection noise. To carefully analyze
+the sensitivity of this technique, we study off-resonant sensing where
+$\omega$ is far from resonance with the mechanical COM resonance
+frequency $\omega_{z}$ of the ion array. We also study incoherent
+or asynchronous amplitude detection where the phase of the spin-dependent
+force varies relative to the phase of the COM oscillation. Incoherent
+detection produces a signal proportional to $\left(Z_{c}\right)^{2}$.
+We demonstrate a sensitivity of $(100\:\mathrm{pm})^{2}/\sqrt{Hz}$
+??? and the detection of amplitudes $Z_{c}$ as small as 50 pm,
+almost two orders of magnitude below the $\sim$2 nm ground state
+wave function size. For our set-up a 25 pm ?? amplitude corresponds
+to the detection of force/ion of 40 yN and an electric field of 230
+$\mu$V/m. 
+
+Orig intro:
+Well controlled and understood quantum systems offer advantages over their classical counterparts and are finding uses in a variety of up-and-coming disciplines. Quantum information and quantum cryptography are chief among them, but the use of such a quantum mechanical system as a sensor may prove to be tremendously useful. Quantum metrology, where the sensing protocol is enhanced by entanglement, is the most direct way to improve a measurement's sensitivity beyond the classical limit. However, such methods remain relatively far from useful application. The use of a quantum system sensitive to a physical parameter, such as an electric or magnetic field, is of more immediate usefulness for sensitive measurements \citep{Degen2016}. Cavity-based optomechanical resonators have proven to be tremendously sensitive to a wide variety of physical parameters and are the most prominent example of a mesoscopic system used as a quantum sensor \citep{Clark2016,Kampel2016,Kim2016a,Schreppler2014a}. Single ion sensors make use of their long coherence times to make measurements and are the prime example of a single quantum object used as a sensor \citep{Shaniv2016,Ivanov2016a,Knunz2010}. Our 2-D crystal of ions in a Penning trap operates in a regime between these two paradigms.
  
 What these different experimental setups have in common as sensors is that they all make use of a mechanical oscillator. An ion in an RF trap oscillates at the trap resonance frequency. A microfabricated resonator is an oscillating membrane. The ion crystal in an Penning trap behaves like both: the drumhead modes of the crystal oscillate like a membrane with the center of mass mode at the trap resonance frequency. The sensing of an applied drive is done by measuring the displacement of the oscillator. Naturally, the best force sensitivity for such a mechanical oscillator occurs when the applied force is driven at the resonance frequency. Driving the oscillator with a small, off-resonant force requires greater displacement sensitivity - as the same force applied on resonance results in a much larger displacement. In addition, the standard quantum limit (SQL) and fundamental quantum limit (QL) converge at the resonance, but off-resonance the SQL may be surpassed \citep{Ivanov2016,Kampel2016,Schreppler2014a}. By operating off-resonantly, we can demonstrate in the future with phase-coherent detection amplitude sensing below the SQL.
 
@@ -183,6 +212,9 @@ By scaling up the number of ions we see an increase in sensitivity to ion displa
 We present a novel technique for amplitude and force sensing. By isolating and controlling a two-level system comprised of the effective spin-1/2 in each ion in our trap and applying a global spin-dependent force, the spin and motional degrees of freedom of the ions are coupled. This coupling allows us to measure the motional state of the ions by directly reading out the spin state. This method was used previously as a probe of the mode temperatures in the ion crystal in our Penning trap \citep{Sawyer2014a}.
 
 A prior version of this experimental apparatus using Doppler velocimetry reported force sensing of 390 yN $Hz^{-1}$ and displacements of 18 nm \citep{Biercuk2010a, Biercuk2011}. With near term improvements we expect to best this force sensitivity by []. We report an amplitude sensitivity two orders of magnitude improved.
+
+\section{Experimental Setup}
+Our experimental apparatus consists of $\prescript{9}{}{}$Be$^{+}$ ions confined to a single-plane Coulomb crystal in a Penning trap, described in Fig. \ref{Fig 1} and \citep{Bohnet2015a}. The ions are cooled to the Doppler limit and the scattered fluorescence is used for imaging. The spin-1/2 system is the $\prescript{2}{}{S}_{1/2}$ ground state of the valence electron spin $\ket{\uparrow} (\ket{\downarrow}) \equiv \ket{m_{s}=+1/2} (\ket{m_{s}=-1/2}) $. In the magnetic field of the Penning trap, the ground state is split by 124 GHz. A resonant microwave source is used to perform global rotations of the spin ensemble. A pair of off-resonant laser beams generate a spin-dependent optical dipole force, coupling the spins to the ions's axial motion. The spins can be used as a sensitive readout of the axial motion.
 \begin{figure}[h]
   \subfloat[]{%
     \includegraphics[width=.24\textwidth]{penning_trap}}\hfill
@@ -190,9 +222,6 @@ A prior version of this experimental apparatus using Doppler velocimetry reporte
     \includegraphics[width=.24\textwidth]{level_diagram}}\hfill
   \caption{(a) Cross-section of the NIST Penning trap, characterized by an axial magnetic field $B = 4.45$ T and an axial trap frequency $\omega_z = 2\pi \times 1.57$ MHz. The blue disk represents the ion crystal. Cylindrical electrodes (orange) generate a harmonic confining potential along their axis. Radial confinement is provided by the Lorentz force from $\vec{E} \times \vec{B}$-induced rotation in the axial magnetic field. Time varying potentials applied to eight azimuthally segmented electrodes generate a rotating wall potential that controls the crystal rotation frequency. Doppler cooling beams are directed along $y$ and $z$. The beams responsible for the spin-dependent optical dipole force are at $10^{\circ} $ from the ion plane. Global, state-dependent fluoresence is collected on the side-view objective. (b) Energy levels of $\prescript{9}{}{}$Be$^{+}$ at B = 4.46 T.}\label{Fig 1}
 \end{figure}
-\section{Experimental Setup}
-Our experimental apparatus consists of $\prescript{9}{}{}$Be$^{+}$ ions confined to a single-plane Coulomb crystal in a Penning trap, described in Fig. \ref{Fig 1} and \citep{Bohnet2015a}. The ions are cooled to the Doppler limit and the scattered fluorescence is used for imaging. The spin-1/2 system is the $\prescript{2}{}{S}_{1/2}$ ground state of the valence electron spin $\ket{\uparrow} (\ket{\downarrow}) \equiv \ket{m_{s}=+1/2} (\ket{m_{s}=-1/2}) $. In the magnetic field of the Penning trap, the ground state is split by 124 GHz. A resonant microwave source is used to perform global rotations of the spin ensemble. A pair of off-resonant laser beams generate a spin-dependent optical dipole force, coupling the spins to the ions's axial motion. The spins can be used as a sensitive readout of the axial motion.
-
 By measuring the decrease in the composite Bloch vector length produced by the application of a homogenous spin-dependent force, detailed information about the motional state of the ions is revealed. This spin dephasing is directly measured. The spin-dependent optical dipole force (ODF) is generated from the interference of a pair of detuned lasers, shown in Fig. \ref{Fig 1} (a). The ODF couples the spin and motional degrees of freedom through the interaction 
 \begin{equation}
 H_{ODF} = U\sum_{i}\sin(\delta k \cdot z_{i} - \mu t + \phi)\sigma^{z}_{i} ,
@@ -254,8 +283,8 @@ With the drive frequency chosen to correspond to the peak signal, scanning the p
 \[J_0(\theta_{max}) = 1 - 2e^{\Gamma \tau} \left[ \left< P_{\uparrow} \right> - \left< P_{\uparrow} \right>_{bckgnd} \right] \]
 The signal-to-noise for a single experiment is given by $S/N =\theta_{max}^{2}/\delta \theta_{max}^{2}$, where $\delta \theta_{max}^{2} \equiv \delta F(\theta_{max}^{2})/ \left( \frac{dF(\theta_{max}^{2})}{d\theta_{max}^{2}} \right)$ and  $F(\theta_{max}^{2}) \equiv \frac{1-J_0(\theta_{max})}{2}$. We ignore noise in the background, as we can perform sufficiently many experiments with no applied drive to make the background noise arbitrarily small. Then $\delta J_0(\theta_{max}) = 2e^{\Gamma \tau} \sqrt{\sigma^{2}_{P_{\uparrow}} + \delta \left< P_{\uparrow} \right>}$, where $\sigma^{2}_{P_{\uparrow}}$ is the variance due to shot-to-shot fluctuations of $\cos(\theta)$ caused by the (incoherent nature of the experiment) incoherence between the phase of the applied drive and the ODF beatnote and $\delta \left< P_{\uparrow} \right>$ is the projection noise from the measurement of $P_{\uparrow}$. As the drive amplitude is decreased, the relative contribution of $\sigma^{2}_{P_{\uparrow}}$ to the noise decreases as well, and the projection noise becomes dominant. In this regime, the signal-to-noise ratio begins to drop, representing the limit of sensitivity for this experiment. To extract this limit, we plot the signal-to-noise as a function of ion displacement in Fig. 4. 
 \begin{figure}[h]
-\includegraphics[width=.25\textwidth]{amp_sense_both}
-\caption{}\label{Fig 4}
+\includegraphics[width=.45\textwidth]{sense_lim}
+\caption{Limit of amplitude sensing. As the amplitude of the applied drive is decreased, the projection noise of the spin ensemble dominates and the signal-to-noise ratio decreases. At larger amplitudes, the shot-to-shot fluctuations of the precession angle $\theta^{2}$ limit the signal-to-noise ratio to 1. }\label{Fig 4}
 \end{figure}
 
 \section{Conclusion}
